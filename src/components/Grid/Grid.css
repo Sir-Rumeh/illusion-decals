@@ -1,0 +1,15 @@
+.grid-items {
+	width: 25rem;
+	height: 20rem;
+	background-color: brown;
+	border-radius: 3rem;
+	padding: 2rem;
+	margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+	.grid-items {
+		width: 22rem;
+		height: 16rem;
+	}
+}
