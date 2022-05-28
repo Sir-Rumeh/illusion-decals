@@ -10,9 +10,11 @@
 	z-index: 111;
 	transform: translateX(-100%);
 	transition: all 0.5s linear;
-	background-color: red;
 	/* padding-top: 11vh; */
 	justify-content: flex-end;
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(13.5px);
+	-webkit-backdrop-filter: blur(13.5px);
 }
 
 .show-categories {
@@ -40,9 +42,16 @@
 	flex-wrap: wrap;
 	justify-content: flex-end;
 	width: 40rem;
-	background-color: green;
+	box-shadow: 10px 13px 29px 0px rgba(0, 0, 0, 0.75) inset;
+	-webkit-box-shadow: 10px 13px 29px 0px rgba(0, 0, 0, 0.75) inset;
+	-moz-box-shadow: 10px 13px 29px 0px rgba(0, 0, 0, 0.75) inset;
+	border: none;
 }
 
 .container .full-width {
 	width: 100%;
+	margin-bottom: 2rem;
+}
+.container h1 {
+	margin-bottom: 2rem;
 }

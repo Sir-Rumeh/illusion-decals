@@ -31,9 +31,9 @@ html {
 
 .home {
 	position: relative;
-	background-color: blue;
 	max-height: 90vh;
 	padding: 4rem 10rem;
+	padding-bottom: 0;
 	overflow-y: scroll;
 }
 

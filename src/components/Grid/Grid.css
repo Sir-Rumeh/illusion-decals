@@ -1,10 +1,40 @@
 .grid-items {
+	position: relative;
 	width: 25rem;
 	height: 20rem;
-	background-color: brown;
+	background-image: url("../../assets/images/featured.jpg");
+	background-position: center;
+	background-size: cover;
 	border-radius: 3rem;
 	padding: 2rem;
 	margin: 0 auto;
+	overflow-y: hidden;
+}
+
+.featured-designs-details {
+	display: block;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background-color: yellow;
+	width: 100%;
+	padding: 2rem;
+	border-bottom-left-radius: 3rem;
+	border-bottom-right-radius: 3rem;
+	transform: translateY(100%);
+}
+
+.translate-featured-designs-details {
+	transform: translateY(0%);
+}
+
+.flex {
+	display: flex;
+	align-items: flex-end;
+}
+
+.flex span {
+	margin-left: 1rem;
 }
 
 @media (max-width: 768px) {

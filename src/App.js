@@ -4,6 +4,7 @@ import "./App.css";
 // COMPONENTS
 import Header from "./components/Header/Header";
 import Categories from "./components/Categories/Categories";
+
 // Routing
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 

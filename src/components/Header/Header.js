@@ -11,7 +11,6 @@ function Header() {
 
 		const isShown = hamburgerMenu.classList.contains("show-menu");
 		const categories = document.querySelector(".categories");
-		const home = document.querySelector(".home");
 
 		isShown ? hideMenu() : showMenu();
 		function hideMenu() {
