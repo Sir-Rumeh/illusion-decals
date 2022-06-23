@@ -25,6 +25,7 @@ function Categories() {
 				<h1 className="full-width">Cartoons</h1>
 				<h1 className="full-width">Nature</h1>
 				<h1 className="full-width">Nfts</h1>
+				<script></script>
 			</div>
 		</div>
 	);
