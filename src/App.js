@@ -29,7 +29,7 @@ function App() {
 					<Route path="/" element={<Home />} />
 				</Routes>
 			</div>
-			{/* {console.log("testing")} */}
+			{console.log("testing")}
 		</BrowserRouter>
 	);
 }
