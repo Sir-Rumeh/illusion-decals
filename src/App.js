@@ -12,7 +12,7 @@ import Home from "./pages/Home";
 
 function App() {
 	function loadFunctions() {
-		// console.log("in app.js");
+		console.log("in app.js");
 	}
 
 	useEffect(() => {
