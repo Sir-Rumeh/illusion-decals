@@ -31,7 +31,7 @@ function App() {
 		{
 			/* {console.log("testing")} */
 		}
-		// </BrowserRouter>
+		</BrowserRouter>
 	);
 }
 
