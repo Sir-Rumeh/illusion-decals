@@ -20,7 +20,7 @@ function App() {
 	}, []);
 
 	return (
-		<BrowserRouter>
+		// <BrowserRouter>
 			<div className="app">
 				<Header />
 				<Categories />
