@@ -24,7 +24,7 @@ function App() {
 		// <div className="app">
 		// <Header />
 		// <Categories />
-		// <Routes>
+		<Routes>
 		<Route path="/" element={<Home />} />
 		</Routes>
 		</div>
