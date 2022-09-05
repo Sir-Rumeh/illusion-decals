@@ -20,17 +20,15 @@ function App() {
 	}, []);
 
 	return (
-		// <BrowserRouter>
-		<div className="app">
-		<Header />
-		<Categories />
-		<Routes>
-		<Route path="/" element={<Home />} />
-		</Routes>
-		</div>
-		{
-			/* {console.log("testing")} */
-		}
+		<BrowserRouter>
+			<div className="app">
+				<Header />
+				<Categories />
+				<Routes>
+					<Route path="/" element={<Home />} />
+				</Routes>
+			</div>
+			{/* {console.log("testing")} */}
 		</BrowserRouter>
 	);
 }
