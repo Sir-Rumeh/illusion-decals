@@ -26,7 +26,7 @@ function App() {
 		// <Categories />
 		// <Routes>
 		// <Route path="/" element={<Home />} />
-		// </Routes>
+		</Routes>
 		</div>
 		{
 			/* {console.log("testing")} */
