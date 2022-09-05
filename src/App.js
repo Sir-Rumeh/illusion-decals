@@ -23,7 +23,7 @@ function App() {
 		// <BrowserRouter>
 			// <div className="app">
 				// <Header />
-				<Categories />
+				// <Categories />
 				<Routes>
 					<Route path="/" element={<Home />} />
 				</Routes>
