@@ -22,7 +22,7 @@ function App() {
 	return (
 		// <BrowserRouter>
 		// <div className="app">
-		// <Header />
+		<Header />
 		<Categories />
 		<Routes>
 		<Route path="/" element={<Home />} />
